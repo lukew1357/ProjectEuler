@@ -8,13 +8,6 @@ def triangular(n):
         sum += i+1
     return sum
 
-#Function to check if a number is prime
-def isPrime(n):
-    for i in range(2, int(math.sqrt(n))+1):
-        if (n % i == 0):
-            return False
-    return True
-
 num  = 76576500
 while True:
     divisors = []
